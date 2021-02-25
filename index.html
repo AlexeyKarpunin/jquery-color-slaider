@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./main.js"></script>
+  <link href="./main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section class="main__section">
+    <div class="container">
+      
+      <div class="slaider__head">
+        <button id='color--btn' class="btn color_btn">color</button>
+        <button id='bg-color--btn' class="btn bk-colot_btn active-btn">Background-color</button>
+      </div>
+
+      <div class="slaider slaider__background">
+        <div class="slaider__actions">
+
+          <div class="actions__box bg-action ">
+            <div id='red'></div>
+            <div id='green'></div>
+            <div id='blue'></div>
+          </div>
+
+          <div class="actions__box color-action hide">
+            <div id='red-color'></div>
+            <div id='green-color'></div>
+            <div id='blue-color'></div>
+          </div>
+
+          <div class="color__area">
+            <textarea class="color__area__text" id="print_color_area">Hello world!!!</textarea>
+          </div>
+
+        </div>
+        <div id='myColor'></div>
+        <div id='myColor-bg'></div>
+
+      </div>
+
+
+
+    </div>
+  </section>
+  
+</body>
+</html>

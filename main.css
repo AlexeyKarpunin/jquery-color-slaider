@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main__section {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.container{
+  margin: 100px auto;
+  max-width: 1170px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.slaider {
+  padding: 10px 0 0 0;
+  max-width: 550px;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.slaider__head {
+  position: relative;
+  max-width: 550px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.slaider__head::after {
+  content: 'Select:';
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #FFFFFF;
+}
+
+.actions__box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 75px;
+  justify-content: space-between;
+}
+
+.slaider__actions {
+  display: flex;
+}
+
+.active-btn {
+  background: rgb(91, 113, 240);
+  border: 1px solid blue;
+  color: white;
+}
+
+.color__area__text {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-size: 20px;
+  resize: none;
+}
+
+.color__area__text:hover {
+  cursor: pointer;
+}
+#red-color > div:nth-child(1),
+#red > div:nth-child(1) {
+  background: red;
+}
+
+#green-color > div:nth-child(1),
+#green > div:nth-child(1) {
+  background: green;
+}
+
+#blue-color > div:nth-child(1),
+#blue > div:nth-child(1) {
+  background: rgb(0, 0, 255);
+}
+
+#red-color > span:nth-child(2),
+#red > span:nth-child(2) {
+  border: 2px solid red;
+}
+
+#green-color > span:nth-child(2),
+#green > span:nth-child(2) {
+  border: 2px solid green;
+
+}
+
+#blue-color > span:nth-child(2),
+#blue > span:nth-child(2) {
+  border: 2px solid blue;
+
+}
+
+
+.color__area {
+  margin: 0 0 0 20px;
+  width: 200px;
+  height: 125px;
+  background-color: rgb(255, 255, 255); 
+}
